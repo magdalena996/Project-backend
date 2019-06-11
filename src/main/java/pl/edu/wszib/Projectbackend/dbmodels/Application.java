@@ -13,7 +13,6 @@ import javax.persistence.*;
 @Table(name="applications")
 public class Application
 {
-
     @GeneratedValue
     @Id
     private long id;
